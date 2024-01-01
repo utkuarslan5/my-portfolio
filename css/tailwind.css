@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can go here if needed */
+/* For example, to define a dark theme color scheme */
+:root {
+  --color-bg: #1a202c;
+  --color-text: #cbd5e0;
+  --color-accent: #4fd1c5;
+}
+
+/* Dark mode specific styles */
+.dark-mode {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Project card styling */
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* You can add more custom styles as needed */
