@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AO Developer Portfolio</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="js/main.js" defer></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <header id="navbar" class="p-5 bg-gray-800 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold">AO Developer</a>
+            <nav>
+                <a href="#projects" class="px-4 hover:underline">Projects</a>
+                <a href="#contact" class="px-4 hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-10">
+        <section class="mb-20 text-center">
+            <img src="img/profile.png" alt="Profile Picture" class="rounded-full mx-auto w-32 h-32">
+            <h1 class="text-4xl font-bold mt-5">Welcome to My Portfolio</h1>
+            <p class="text-gray-400 mt-3">Showcasing my AO development projects</p>
+        </section>
+
+        <section id="projects" class="mb-20">
+            <h2 class="text-3xl font-bold mb-5">Projects</h2>
+            <div id="project-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Project cards will be inserted here by initializeProjects() -->
+            </div>
+        </section>
+
+        <section id="contact" class="text-center">
+            <h2 class="text-3xl font-bold mb-5">Get In Touch</h2>
+            <p>If you're interested in working together or just want to say hi, I'd love to hear from you.</p>
+            <a href="mailto:contact@yourdomain.com" class="inline-block mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Email Me
+            </a>
+        </section>
+    </main>
+
+    <footer id="footer" class="p-5 bg-gray-800 text-center text-gray-400">
+        <p>&copy; 2023 AO Developer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
